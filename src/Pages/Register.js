@@ -84,10 +84,7 @@ export const Register = () => {
     <div className="h-screen w-screen flex justify-center bg-slate-900">
       <div className="flex justify-center items-center">
         <div className="rounded-lg text-center p-6 h-max bg-black text-white sm:w-96 w-80  flex flex-col gap-3">
-          <LogoImage
-            width="w-2/4"
-            src="https://www.paytmbank.com/_next/static/media/paytmbank-logo.4ba3db09.svg"
-          />
+        <p className="text-3xl text-[#42c8f5]">Digital wallet</p>
           <Heading label="Register" />
           <SubHeading label="Register a new account" />
 

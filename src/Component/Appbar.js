@@ -30,11 +30,8 @@ export const Appbar = () => {
 
   return (
     <div className="shadow h-14 flex justify-between pr-10 bg-zinc-700">
-      <div className="flex flex-col justify-center h-full ml-4">
-        <LogoImage
-          width="w-2/4"
-          src="https://www.paytmbank.com/_next/static/media/paytmbank-logo.4ba3db09.svg"
-        />
+      <div className="flex flex-col justify-center h- ml-4">
+        <p className="text-3xl text-[#42c8f5]">Digital wallet</p>
       </div>
       <div className="flex">
         <div className="flex flex-col justify-center h-full mr-4">
